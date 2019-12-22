@@ -1,20 +1,9 @@
-<!--form action="upload.php" method="post" enctype="multipart/form-data" name="uploadform">
-        <input type="hidden" name="MAX_FILE_SIZE" value="350000">
-        <input name="picture" type="file" id="picture" size="50">
-        <input name="upload" type="submit" id="upload" value="Uploadfile!">
-    </form-->
-	
-	<!DOCTYPE html> 
+<!DOCTYPE html> 
 <html>
 <head>
+<title>Upload file using PHP & JavaScrip</title>
 <script src="jquery.min.js"></script>
 <script>
-/* Script written by Adam Khoury @ DevelopPHP.com */
-/* Modified by Philip Graf */
-/* Video Tutorial: http://www.youtube.com/watch?v=EraNFJiY0Eg */
-/* Edit Thread: https://teamtreehouse.com/forum/i-want-to-upload-video-file-with-progress-bar*/
-
-
 
 function _(el){
     return document.getElementById(el);
