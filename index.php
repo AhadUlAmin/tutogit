@@ -65,6 +65,7 @@ function abortHandler(event){
 <body>
 <h2> File Upload Progress  </h2> 
 <form id="upload_form" enctype="multipart/form-data" method="post">
+	<h1> Upload using php and javascrip</h1>
    <input type="file" name="file1" id="file1" onchange="uploadFile()"><br>
   <input id="file" type="button" value="Upload File" >
   <progress id="progressBar" value="0" max="100" style="width:300px;"></progress>
